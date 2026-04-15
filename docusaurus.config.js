@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'XiG Blog',
+  tagline: 'This is XiG Blog to note all thinngs that he learn ',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -107,10 +107,14 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documents',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Article (VIE)',
+                to: '/docs/category/article-vie',
+              },
+              {
+                label: 'Article (EN)',
                 to: '/docs/intro',
               },
             ],
